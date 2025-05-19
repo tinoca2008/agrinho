@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Festejando a Conexão entre Campo e Cidade</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #eaf7ea;
+      color: #2e4d2e;
+    }
+    header {
+      background-color: #3b873e;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #2f6b30;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .highlight {
+      background-color: #d6f5d6;
+      padding: 20px;
+      border-left: 6px solid #3b873e;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    form {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-top: 40px;
+    }
+    label, textarea, input[type="submit"], input[type="text"] {
+      display: block;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    textarea {
+      resize: vertical;
+      height: 100px;
+      padding: 10px;
+      font-size: 16px;
+    }
+    input[type="submit"] {
+      background-color: #3b873e;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    input[type="submit"]:hover {
+      background-color: #2f6b30;
+    }
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+    .gallery img {
+      max-width: 100%;
+      width: 45%;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+    footer {
+      background-color: #3b873e;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    h1, h2 {
+      margin-top: 0;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        margin: 10px 0;
+      }
+      .gallery img {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Festejando a Conexão entre Campo e Cidade</h1>
+    <p>Unindo saberes ecológicos para um futuro mais verde e equilibrado</p>
+  </header>
+
+  <nav>
+    <a href="#ecologia">Ecologia</a>
+    <a href="#praticas">Práticas</a>
+    <a href="#educacao">Educação</a>
+    <a href="#harmonia">Harmonia</a>
+    <a href="#ideias">Ideias</a>
+  </nav>
+
+  <section>
+    <div class="highlight" id="ecologia">
+      <h2>Ecologia como Ponte</h2>
+      <p>O campo e a cidade são interdependentes quando se trata da preservação ambiental. A produção de alimentos sustentável e o consumo consciente são atitudes que fortalecem essa conexão.</p>
+    </div>
+    <div class="highlight" id="praticas">
+      <h2>Práticas Sustentáveis</h2>
+      <p>A agroecologia, o reflorestamento, a compostagem e a agricultura urbana são exemplos de práticas que unem o campo e a cidade em prol da natureza.</p>
+    </div>
+    <div class="highlight" id="educacao">
+      <h2>Educação Ambiental</h2>
+      <p>Promover a consciência ecológica nas escolas e comunidades ajuda a criar uma sociedade que valoriza e protege o meio ambiente.</p>
+    </div>
+    <div class="highlight" id="harmonia">
+      <h2>Celebrando a Harmonia</h2>
+      <p>Ao celebrarmos a conexão entre campo e cidade com foco ecológico, reforçamos a importância de viver em harmonia com a Terra, respeitando seus ciclos e recursos.</p>
+    </div>
+
+    <div class="gallery">
+      <img src="https://via.placeholder.com/400x250?text=Natureza+e+Cidade" alt="Imagem de ecologia urbana e rural">
+      <img src="https://via.placeholder.com/400x250?text=Conexão+Campo-Cidade" alt="Conexão entre campo e cidade">
+    </div>
+
+    <form id="ideias">
+      <h2>Compartilhe sua ideia ecológica</h2>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="ideia">Sua ideia:</label>
+      <textarea id="ideia" name="ideia" placeholder="Escreva aqui sua sugestão para proteger o meio ambiente" required></textarea>
+      <input type="submit" value="Enviar Ideia">
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Campo-Cidade Ecológico. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
